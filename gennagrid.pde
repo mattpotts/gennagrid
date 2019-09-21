@@ -12,7 +12,7 @@ void setup() {
   // Configuration.
   cellSize = 7;
   cols = 100;
-  rows = 130;
+  rows = 100;
   pattern = "rrrrrggggaaaaaaff";
 
   noStroke();
@@ -21,7 +21,7 @@ void setup() {
   // For some reason it's not possible to pass variables to size so this line prints out the correct size to use.
   // Stop the application, set the width and height, then restart the application.
   println("Use size(" + cellSize * cols + "," + cellSize * rows + ")");
-  size(700, 910);
+  size(700, 700);
 
   // Draw grid
   for (int i=0; i<rows; i++) {
